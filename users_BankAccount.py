@@ -40,7 +40,5 @@ class User:
         return self
 #########################################################################################################################
 dana = User ("dana", "dana.alhaji95@gmail.com")
-dana.account['account1'].deposit(2000)
-dana.account['account1'].display_account_info()
-dana.account.update({'account2': (.05,200)})
-dana.account['account2'].display_account_info()
+dana.account.deposit(2000)
+dana.account.display_account_info()
